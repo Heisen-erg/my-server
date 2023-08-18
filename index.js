@@ -5,7 +5,7 @@ const mongoose = require("mongoose")
 
 const app = express();
 
-app.use(cors({credentials:true,origin:"https://portfolio-jpos8qswp-heisen-erg.vercel.app"}));
+app.use(cors({credentials:true,origin:"https://portfolio-8279eztiv-heisen-erg.vercel.app"}));
 app.use(express.json());
 
 app.get("/",(req,res) => {
